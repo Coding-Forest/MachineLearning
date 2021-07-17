@@ -174,7 +174,7 @@ image_shifted_x = np.array([[0, 1, 0, 0, 0, 0],
                             [0, 0, 0 ,1, 1, 0],
                             [0, 0, 1, 0, 0, 1],
                             [0, 1, 0, 0, 0, 0]])
-
+ 
 print(classify_xo_image(image_o))
 print(classify_xo_image(image_x))
 classify_xo_image(image_shifted_x)
